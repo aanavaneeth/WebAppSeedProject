@@ -22,6 +22,7 @@ module.exports = function (config) {
             "../WebApplication/lib/bootstrap/dist/js/bootstrap.js",
             "lib/jasmine-jquery/lib/jasmine-jquery.js",
             "lib/angular-mocks/angular-mocks.js",
+            "helpers/*.js",
             '../WebApplication/scripts/**/*.js',
             'specs/**/*.js'
         ],

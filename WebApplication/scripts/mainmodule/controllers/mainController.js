@@ -7,4 +7,7 @@ angular.module('main')
         this.Add = function () {
             this.result = mathHelpers.addTwoNumbers(this.arg1, this.arg2);
         };
+
+        this.inputModel = 10; //initialize
+
     }]);

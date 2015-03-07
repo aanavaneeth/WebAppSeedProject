@@ -19,6 +19,11 @@
         <input  ng-model="cntrlr.arg2"  type="number"/>
         <button ng-click="cntrlr.Add()">Done!</button>
         <div>The result is {{cntrlr.result}}</div>
+        <div>
+            <input type="text" ng-model="cntrlr.inputModel" input-validator />
+        <div>{{cntrlr.inputModel}}</div>
+        </div>
+
     </div>
 </div>
 <script src ="lib/jquery/dist/jquery.js"></script>
@@ -27,6 +32,8 @@
 <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
 <script src = "scripts/HelloWorldApp.js"></script>
 <script src= "scripts/helpers/mathhelper.js"></script>
+<script src="scripts/directives/inputvalidator.js"></script>
 <script src="scripts/mainmodule/controllers/mainController.js"></script>
+
 </body>
 </html>
